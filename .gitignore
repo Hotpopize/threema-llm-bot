@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files & Secrets (Never commit secrets!)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs & Audit trails
+*.log
+bot.log
+*.jsonl
+interactions.jsonl
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
